@@ -1,0 +1,5 @@
+# Perch configuration (license key, database credentials, environment settings)
+/admin/config/
+
+# macOS
+.DS_Store
