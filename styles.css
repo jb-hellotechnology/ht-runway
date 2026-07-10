@@ -978,3 +978,29 @@ body.nav-open { overflow: hidden; }
 
   .mobile-nav__cta { margin-top: 22px; width: 100%; justify-content: center; }
 }
+
+/* --------------------------------------------------------------------------
+   Error pages (403 / 404 / 503)
+   -------------------------------------------------------------------------- */
+.error-page { display: flex; align-items: center; min-height: 62vh; padding-block: 80px; }
+.error-page .container { margin-inline: auto; }
+.error-page__code {
+  font-family: var(--font-mono); font-weight: 600;
+  font-size: clamp(64px, 15vw, 132px); line-height: 1;
+  letter-spacing: -0.03em; color: var(--label-2); margin-bottom: 16px;
+}
+.error-page .lead { margin-inline: auto; max-width: 540px; }
+.error-page__actions {
+  display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 34px;
+}
+.error-page__links { margin-top: 52px; padding-top: 30px; border-top: 1px solid var(--line); }
+.error-page__links .eyebrow { display: block; text-align: center; margin-bottom: 18px; }
+.error-page__linklist { display: flex; flex-wrap: wrap; gap: 14px 30px; justify-content: center; }
+.error-page__linklist .link { font-size: 15px; }
+
+@media (max-width: 640px) {
+  .error-page { min-height: 50vh; padding-block: 56px; }
+  .error-page__actions { width: 100%; }
+  .error-page__actions .btn { flex: 1 1 auto; justify-content: center; }
+}
+
