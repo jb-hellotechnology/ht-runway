@@ -20,7 +20,7 @@
 
         <div class="error-page__actions">
           <a class="btn btn--primary" href="/">Try again</a>
-          <a class="btn btn--outline" href="mailto:hello@hellotechnology.co.uk">Email me <i data-lucide="mail"></i></a>
+          <a class="btn btn--outline" href="mailto:hi@hellotechnology.co.uk">Email me <i data-lucide="mail"></i></a>
         </div>
 
         <div class="error-page__links">
